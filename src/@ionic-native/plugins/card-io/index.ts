@@ -21,7 +21,7 @@ export interface CardIOOptions {
   /**
    * 	Removes the keyboard button from the scan screen.
    */
-  supressManual?: boolean;
+  suppressManual?: boolean;
 
   /**
    * The postal code will only collect numeric input. Set this if you know the expected country's postal code has only numeric postal codes.
@@ -66,7 +66,7 @@ export interface CardIOOptions {
   /**
    * The user will not be prompted to confirm their card number after processing.
    */
-  supressConfirmation?: boolean;
+  suppressConfirmation?: boolean;
 
   /**
    * The card.io logo will not be shown overlaid on the camera.
@@ -81,7 +81,7 @@ export interface CardIOOptions {
   /**
    * Once a card image has been captured but before it has been processed, this value will determine whether to continue processing as usual.
    */
-  supressScan?: boolean;
+  suppressScan?: boolean;
 
 }
 
